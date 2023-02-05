@@ -22,7 +22,7 @@ text-decoration: none;}
     top: 0;}
     
     .navicon{color:white;
-    width:150px;
+    width:100px;
     font-size: 30px;
     position: absolute;
     top:20px;
@@ -40,11 +40,11 @@ text-decoration: none;}
     margin: 0 8px;}
     
     nav ul li a{position: relative;
-    font-size: 17px;
+    font-size: 15px;
     text-transform: uppercase;
     color: white;
     font-weight: 900;
-    padding:5px 0;}
+    padding:2px 0;}
     
     nav ul li a:before{
         position: absolute;
@@ -273,7 +273,7 @@ text-align: center;}
     align-items: center;}
     
     input{margin-bottom: 20px;
-    width: 70%;
+    width: 50%;
     border-radius: 10px;
     padding: 0 10px;
     height: 30px;
@@ -281,7 +281,7 @@ text-align: center;}
     border-color:transparent;}
     
     textarea{margin-bottom: 20px;
-        width: 70%;
+        width: 50%;
         height: 150px;
         border-radius: 10px;
         padding: 0 10px;
@@ -382,11 +382,12 @@ text-align: center;}
             width: 100%;}
     
             .cheating>h2{font-size: 30px;}
-    
+    input{width:100%;}
+    textarea{width:100%;}
         
     }
     
-    @media screen and (max-width:860px) and (min-width:480px){
+    @media screen and (max-width:990px) and (min-width:480px){
         label #btn{display: block;}
 
 
@@ -429,5 +430,8 @@ nav ul li a {font-size:20px;}
     
        .peoplereview{flex-direction: column;}
        .review1{margin-bottom: 20px;}
+
+       input{width:100%;}
+       textareA{width: 100%;}
     
     }
