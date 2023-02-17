@@ -76,7 +76,8 @@ text-decoration: none;}
     .showcase{background-color:rgb(6, 11, 11) ;
     padding: 70px 30px;
     display: flex;
-    justify-content: space-between;}
+    justify-content: space-between;
+width: 100%;}
     
     .showcasetext{color: white;
     margin-top: 100px;
@@ -274,7 +275,6 @@ text-align: center;}
     
     input{margin-bottom: 20px;
     width: 50%;
-    border-radius: 10px;
     padding: 0 10px;
     height: 30px;
     outline: none;
@@ -283,7 +283,7 @@ text-align: center;}
     textarea{margin-bottom: 20px;
         width: 50%;
         height: 150px;
-        border-radius: 10px;
+       
         padding: 0 10px;
         outline: none;
         border-color:transparent;}
@@ -432,6 +432,6 @@ nav ul li a {font-size:20px;}
        .review1{margin-bottom: 20px;}
 
        input{width:100%;}
-       textareA{width: 100%;}
+       textarea{width: 100%;}
     
     }
